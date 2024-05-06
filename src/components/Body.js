@@ -39,9 +39,8 @@ const Body=()=>{
             console.log(searchText);
             const filteredListOfRestaurants=listOfRestaurants.filter((res)=>res.info.name.toLowerCase().includes(searchText.toLowerCase()));
             setsearchText("");
-          setfilteredRestaurants(filteredListOfRestaurants);
-          
-          console.log(filteredListOfRestaurants);
+           setfilteredRestaurants(filteredListOfRestaurants);
+        
           }}>Search</button>
          </div>
         <button className="filter-btn"
